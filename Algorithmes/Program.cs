@@ -138,6 +138,7 @@ namespace Algorithmes
                 Console.WriteLine(number);
             }
 
+            // Quick Sort
             QuickSort(array, 0, array.Length - 1);
             foreach (var number in array)
             {
